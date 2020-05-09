@@ -1,3 +1,10 @@
 foo: foo version 31
+zuul:
+  ignored-services: '*'
+  prefix: /api
+  routes:
+    eureka-client: /eurekaclient/**
+    user-service: /userservice/**
+    uaa-service: /uaaservice/**
 
 
